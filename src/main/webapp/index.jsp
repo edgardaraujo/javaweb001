@@ -1,5 +1,2 @@
-<html>
-<body>
-<h2>Hello World!</h2>
-</body>
-</html>
+<!-- redirecionar para outra página -->
+<jsp:forward page="pages/home.jsp"></jsp:forward>
