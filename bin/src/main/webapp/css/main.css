@@ -23,3 +23,8 @@
 .texto-cinza{
 	color: #a29c9c;
 }
+
+.texto-vermelho{
+	color: red;
+	font-weight: bold;
+}

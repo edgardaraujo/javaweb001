@@ -16,6 +16,11 @@
 		<div class="row justify-content-center">
 			<div class="col-8">
 				<h4 class="mt-4 texto-cinza">Fazer login</h4>
+				
+				<div class="texto-vermelho mb-2">
+				  ${ requestScope.msg }
+				</div>
+				
 				<form action="<c:url value='/UserSrv' />" method="post">
 					
 					<div class="form-group">
@@ -25,12 +30,15 @@
 						<input type="password" name="senha" id="senha" placeholder="senha" class="form-control">
 					</div>
 					
-					<button type="submit" class="btn btn-success">Continuar</button>
-				
+					<button type="submit" class="btn btn-success">Continuar</button>				
 				</form>
+				<div class="align-itens-center">
+				<a href="<c:url value='/logon.jsp' />" class="badge badge-light mt-4">
+					Clique aqui para novo cadastro
+				</a>
 			</div>
+			</div>			
 		</div>
 	</div>
-
 </body>
 </html>

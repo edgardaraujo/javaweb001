@@ -13,7 +13,7 @@
 </head>
 <body>
 	<nav class="navbar navbar-light bg-dark">
-		<span class="navbar-header nav-header"><h1><a class="nav-header" href="<c:url value='pages/home.jsp' />" >netshop</a></h1></span>
+		<span class="navbar-header nav-header h1"><a class="nav-header" href="<c:url value='pages/home.jsp' />" >netshop</a></span>
 		<div class="navbar-text">
 			<c:if test="${not empty sessionScope.user}" >
 				<span class="nav-header mr-4"> Seja bem vindo ${sessionScope.user}</span>
