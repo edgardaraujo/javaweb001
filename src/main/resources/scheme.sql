@@ -42,3 +42,7 @@ select * from usuario;
 select * from produto;
 
 update produto set foto = 'iphone.png' where id = 2;
+
+select * from hibernate_sequence;
+
+alter table produto modify foto blob(100000);
