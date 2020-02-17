@@ -38,8 +38,7 @@ public class ComprasServlet extends HttpServlet{
 		
 		//List<Produto> produtos = dao.findAllProdutos(); //dao.findAllProdutos(); ctrl+1+enter+enter
 		
-		List<Produto> produtos = jpadao.findAll();
-		
+		List<Produto> produtos = jpadao.findAll();		
 		
 		req.setAttribute("lista_produto", produtos);
 		

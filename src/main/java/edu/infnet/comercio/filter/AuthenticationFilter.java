@@ -42,7 +42,7 @@ public class AuthenticationFilter implements Filter {
 				url.contains("/comercio/UserSrv"))) {
 			((HttpServletResponse)response).sendRedirect("/comercio/login.jsp");
 		}else {
-		chain.doFilter(request, response);
+			chain.doFilter(request, response);
 		}
 		logger.debug("Passou no filtro");
 	}

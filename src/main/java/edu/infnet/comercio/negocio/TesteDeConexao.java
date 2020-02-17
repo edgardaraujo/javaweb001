@@ -4,9 +4,7 @@ package edu.infnet.comercio.negocio;
 import java.util.List;
 
 import edu.infnet.comercio.negocio.dao.ProdutoDAO;
-import edu.infnet.comercio.negocio.dao.UsuarioDAO;
 import edu.infnet.comercio.negocio.modelo.Produto;
-import edu.infnet.comercio.negocio.modelo.Usuario;
 
 public class TesteDeConexao {
 	

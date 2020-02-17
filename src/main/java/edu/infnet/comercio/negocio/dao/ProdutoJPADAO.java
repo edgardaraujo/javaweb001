@@ -1,12 +1,11 @@
 package edu.infnet.comercio.negocio.dao;
 
-import edu.infnet.comercio.negocio.JpaConnection;
+import edu.infnet.comercio.negocio.modelo.Produto;
 
-public class ProdutoJPADAO extends JpaDAO {
-	
+public class ProdutoJPADAO extends JpaDAO<Produto, Integer> {
+
 	public ProdutoJPADAO() {
-		this.em = JpaConnection.getEmf().createEntityManager();
-		
+		super(Produto.class);
 	}
-	
+
 }
