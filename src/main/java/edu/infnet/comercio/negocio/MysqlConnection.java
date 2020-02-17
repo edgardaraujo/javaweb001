@@ -22,7 +22,7 @@ public class MysqlConnection {
 					+ "useTimezone=true&serverTimezone=UTC"
 					+ "&createDatabaseIfNotExist=true";
 			String user = "root";
-			String password = "";
+			String password = "root";
 			try {				
 				Class.forName("com.mysql.cj.jdbc.Driver");
 				con = DriverManager.getConnection(url, user, password);
